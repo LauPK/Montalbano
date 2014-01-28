@@ -26,6 +26,7 @@ SUBROUTINE X2_SUM_RULE(nstates, X_grid, wf_matrix)
   ENDIF
   !
 !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
   ALLOCATE(Rescaled_X_Grid(1:npoints), STAT = ierr)    
   IF (ierr /= 0) THEN
